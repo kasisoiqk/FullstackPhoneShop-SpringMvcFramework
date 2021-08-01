@@ -1,0 +1,76 @@
+.app {
+    background-color: #f5f5f5;
+}
+
+input {
+    outline: none;
+}
+
+.app__content{
+    margin: 36px 0;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.app__content h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.user-info__input {
+    display: flex;
+    position: relative;
+}
+
+.user-info__image {
+    flex: 1;
+    margin: 12px 8px;
+}
+
+.user-info__text {
+    flex: 1;
+}
+
+.user-info-item__label {
+    border-left: 1.4px solid var(--primary-color);
+    padding: 0 8px;
+    cursor: text;
+}
+
+.user-info__item {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info__item > input {
+    padding: 6px 14px;
+    outline: none;
+    min-width: 260px;
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 8px;
+}
+
+.no-flex {
+    display: block;
+}
+
+.user-info__item-gender {
+    display: flex;
+}
+
+.gender-item {
+    display: flex;
+    padding: 4px 12px;
+    align-self: center;
+}
+
+.gender-item label {
+    display: inline-block;
+}
+
+.btn-submit {
+    position: relative;
+    left: 80%;
+}
